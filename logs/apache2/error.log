@@ -1,0 +1,8 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.30.0.5. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 30 19:24:56.495040 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Wed Nov 30 19:24:56.495192 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Nov 30 19:30:06.875807 2022] [php7:error] [pid 17] [client 31.177.69.74:59106] script '/var/www/html/panel.php' not found or unable to stat, referer: http://77.222.43.111/paneladd.php
+[Wed Nov 30 19:32:28.604056 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.30.0.5. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 30 19:32:36.207018 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Wed Nov 30 19:32:36.207116 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
