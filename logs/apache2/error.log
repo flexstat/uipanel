@@ -6,3 +6,565 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.30.0.5. Set the 'ServerName' directive globally to suppress this message
 [Wed Nov 30 19:32:36.207018 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
 [Wed Nov 30 19:32:36.207116 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.31.0.5. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 30 20:51:18.073567 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Wed Nov 30 20:51:18.073693 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+cp: failed to access '/root/panel/www/superq': Permission denied
+cp: failed to access '/root/panel/www/superq/conf_default': Permission denied
+cp: failed to access '/root/panel/www/superq/conf_default': Permission denied
+cp: failed to access '/root/panel/www/superq/conf_default': Permission denied
+cp: failed to access '/root/panel/www/superq/conf_default': Permission denied
+cp: failed to access '/root/panel/www/superq/conf_default': Permission denied
+cp: cannot create regular file '/superq/conf_default': No such file or directory
+cp: failed to access '/root/panel/www/superq/conf_default': Permission denied
+sh: 1: sudo: not found
+cp: failed to access '/root/panel/www/superq/conf_default': Permission denied
+sh: 1: sudo: not found
+cp: failed to access '/root/panel/www/superq/conf_default': Permission denied
+tail: cannot open '/var/log/syslog' for reading: No such file or directory
+cp: failed to access '/root/panel/www/superq/conf_default': Permission denied
+tail: cannot open '/var/log/syslog' for reading: No such file or directory
+cp: cannot create regular file '/superq/conf_default': No such file or directory
+tail: cannot open '/var/log/syslog' for reading: No such file or directory
+tail: cannot open '/var/log/syslog' for reading: No such file or directory
+cp: missing destination file operand after 'conf_defaultsuperq'
+Try 'cp --help' for more information.
+tail: cannot open '/var/log/syslog' for reading: No such file or directory
+tail: cannot open '/var/log/syslog' for reading: No such file or directory
+cp: cannot create regular file 'superq/default_named_conf': Permission denied
+cp: cannot create regular file 'superq/default_named_conf': Permission denied
+cp: cannot create regular file 'superq/default_named_conf': Permission denied
+sh: 1: python3: not found
+[Thu Dec 01 18:18:16.018371 2022] [core:error] [pid 21] [client 193.142.146.101:54246] AH00126: Invalid URI in request GET /../../../../../mnt/mtd/Config/Account1 HTTP/1.1
+[Thu Dec 01 18:30:40.455406 2022] [core:error] [pid 19] [client 193.142.146.101:41218] AH00126: Invalid URI in request GET /../../../../../mnt/mtd/Config/Account1 HTTP/1.1
+[Thu Dec 01 18:35:22.608929 2022] [core:error] [pid 18] [client 193.142.146.101:60640] AH00126: Invalid URI in request GET /../../../../../mnt/mtd/Config/Account1 HTTP/1.1
+cp: cannot create regular file 'superq/default_named_conf': Permission denied
+cp: cannot create regular file 'superq/default_named_conf': Permission denied
+cp: cannot create regular file 'superq/default_named_conf': Permission denied
+cp: cannot create regular file 'superq/default_named_conf': Permission denied
+cp: cannot create regular file 'superq/default_named_conf': Permission denied
+cp: cannot create regular file 'superq/default_named_conf': Permission denied
+[Thu Dec 01 18:39:56.785904 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.5. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 01 18:40:05.471363 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Thu Dec 01 18:40:05.471478 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Dec 01 18:40:08.152863 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.5. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 01 18:40:16.724809 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Thu Dec 01 18:40:16.724926 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+sh: 1: python3: not found
+sh: 1: python3: not found
+sh: 1: python3: not found
+sh: 1: python3: not found
+sh: 1: python3: not found
+sh: 1: python: not found
+sh: 1: /usr/bin/python3: not found
+sh: 1: /usr/bin/python3: not found
+sh: 1: /usr/bin/python3: not found
+sh: 1: python3: not found
+sh: 1: python3: not found
+[Thu Dec 01 19:18:28.466830 2022] [php7:error] [pid 18] [client 31.177.69.74:1488] script '/var/www/html/super/panel.php' not found or unable to stat, referer: http://77.222.43.111/paneladd.php
+[Thu Dec 01 19:26:59.012426 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.16.5. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 01 19:27:08.980280 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Thu Dec 01 19:27:08.980422 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+sh: 1: /usr/bin/python: not found
+[Thu Dec 01 19:27:55.457016 2022] [php7:error] [pid 18] [client 31.177.69.74:55880] script '/var/www/html/super/panel.php' not found or unable to stat, referer: http://77.222.43.111/paneladd.php
+[Thu Dec 01 19:42:14.403328 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.32.4. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 01 19:51:54.575819 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Thu Dec 01 19:51:54.575925 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Dec 01 19:51:55.827471 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.32.5. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 01 19:52:35.066864 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Thu Dec 01 19:52:35.066998 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+sh: 1: /usr/bin/python: not found
+sh: 1: /usr/bin/python: not found
+sh: 1: /usr/bin/python3: not found
+Traceback (most recent call last):
+  File "logic.py", line 39, in <module>
+    with open('named.conf.' + list_data[2] + '.' + list_data[0], 'w') as file_out:
+PermissionError: [Errno 13] Permission denied: 'named.conf.super.champions.ru'
+[Fri Dec 02 13:55:04.764473 2022] [core:error] [pid 18] [client 185.224.128.15:32920] AH00126: Invalid URI in request GET /../../../mnt/mtd/Config/Account1 HTTP/1.1
+[Fri Dec 02 13:55:32.865357 2022] [core:error] [pid 19] [client 80.94.92.40:51894] AH00126: Invalid URI in request GET /../../../../../mnt/mtd/Config/Account1 HTTP/1.1
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+[Fri Dec 02 14:23:08.760810 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.48.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 14:25:30.074909 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 14:25:30.075012 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Dec 02 14:25:31.512117 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.48.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 14:38:34.516782 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 14:38:34.516959 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Dec 02 14:38:35.702827 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.48.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 14:38:47.848756 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 14:38:47.848915 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+[Fri Dec 02 14:57:07.081219 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.48.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 14:57:08.089025 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 14:57:08.089121 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Dec 02 14:57:09.595499 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.48.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 14:57:51.179948 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 14:57:51.180135 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+[Fri Dec 02 15:00:56.653142 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.64.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 15:01:09.552553 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 15:01:09.552701 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Traceback (most recent call last):
+  File "logic.py", line 52, in <module>
+    subprocess.call(["sshpass -P\xa0TKR@H8HLCWyHEcRG ssh root@77.222.63.249 mkdir /home/"+list_data[2]], shell=True)
+  File "/usr/lib/python3.5/subprocess.py", line 247, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/lib/python3.5/subprocess.py", line 676, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.5/subprocess.py", line 1221, in _execute_child
+    restore_signals, start_new_session, preexec_fn)
+UnicodeEncodeError: 'ascii' codec can't encode character '\xa0' in position 10: ordinal not in range(128)
+/bin/sh: 1: sshpass: not found
+Traceback (most recent call last):
+  File "logic.py", line 53, in <module>
+    subprocess.call(["sshpass -p\xa0TKR@H8HLCWyHEcRG scp named.conf.* root@77.222.63.249:/etc/bind"], shell=True)
+  File "/usr/lib/python3.5/subprocess.py", line 247, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/lib/python3.5/subprocess.py", line 676, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.5/subprocess.py", line 1221, in _execute_child
+    restore_signals, start_new_session, preexec_fn)
+UnicodeEncodeError: 'ascii' codec can't encode character '\xa0' in position 10: ordinal not in range(128)
+/bin/sh: 1: sshpass: not found
+Traceback (most recent call last):
+  File "logic.py", line 53, in <module>
+    subprocess.call(["sshpass -p\xa0MwR2AyfFy0nt scp named.conf.* root@77.222.63.249:/etc/bind"], shell=True)
+  File "/usr/lib/python3.5/subprocess.py", line 247, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/lib/python3.5/subprocess.py", line 676, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.5/subprocess.py", line 1221, in _execute_child
+    restore_signals, start_new_session, preexec_fn)
+UnicodeEncodeError: 'ascii' codec can't encode character '\xa0' in position 10: ordinal not in range(128)
+/bin/sh: 1: sshpass: not found
+/bin/sh: 1: sshpass: not found
+/bin/sh: 1: sshpass: not found
+/bin/sh: 1: sshpass: not found
+/bin/sh: 1: sshpass: not found
+Could not create directory '/var/www/.ssh'.
+Could not create directory '/var/www/.ssh'.
+Could not create directory '/var/www/.ssh'.
+Could not create directory '/var/www/.ssh'.
+Could not create directory '/var/www/.ssh'.
+Could not create directory '/var/www/.ssh'.
+Could not create directory '/var/www/.ssh'.
+Could not create directory '/var/www/.ssh'.
+Could not create directory '/var/www/.ssh'.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Load key "/var/www/.ssh/id_rsa": Permission denied
+mkdir: cannot create directory ‘/home/super’: File exists
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Load key "/var/www/.ssh/id_rsa": Permission denied
+python3: can't open file '/home/super/addinbind.py': [Errno 2] No such file or directory
+Load key "/var/www/.ssh/id_rsa": Permission denied
+mkdir: cannot create directory ‘/home/super’: File exists
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Load key "/var/www/.ssh/id_rsa": Permission denied
+python3: can't open file '/home/super/addinbind.py': [Errno 2] No such file or directory
+Load key "/var/www/.ssh/id_rsa": Permission denied
+mkdir: cannot create directory ‘/home/super’: File exists
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Load key "/var/www/.ssh/id_rsa": Permission denied
+python3: can't open file '/home/super/addinbind.py': [Errno 2] No such file or directory
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+lost connection
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+lost connection
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+lost connection
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+Host key verification failed.
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+[Fri Dec 02 16:02:06.242188 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.80.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 16:02:17.603964 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 16:02:17.604112 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Dec 02 16:02:18.678488 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.80.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 16:02:26.753881 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 16:02:26.753999 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.80.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 16:02:35.454306 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 16:02:35.454446 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+cp: missing destination file operand after 'conf_default'
+Try 'cp --help' for more information.
+cp: missing destination file operand after 'default_named_conf'
+Try 'cp --help' for more information.
+cp: missing destination file operand after 'logic.py'
+Try 'cp --help' for more information.
+cp: missing destination file operand after 'addinbind.py'
+Try 'cp --help' for more information.
+cp: missing destination file operand after 'start.php'
+Try 'cp --help' for more information.
+Host key verification failed.
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+cp: missing destination file operand after 'conf_default'
+Try 'cp --help' for more information.
+cp: missing destination file operand after 'default_named_conf'
+Try 'cp --help' for more information.
+cp: missing destination file operand after 'logic.py'
+Try 'cp --help' for more information.
+cp: missing destination file operand after 'addinbind.py'
+Try 'cp --help' for more information.
+cp: missing destination file operand after 'start.php'
+Try 'cp --help' for more information.
+Host key verification failed.
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+cp: missing destination file operand after 'conf_default'
+Try 'cp --help' for more information.
+cp: missing destination file operand after 'default_named_conf'
+Try 'cp --help' for more information.
+cp: missing destination file operand after 'logic.py'
+Try 'cp --help' for more information.
+cp: missing destination file operand after 'addinbind.py'
+Try 'cp --help' for more information.
+cp: missing destination file operand after 'start.php'
+Try 'cp --help' for more information.
+Host key verification failed.
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+Host key verification failed.
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+Host key verification failed.
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+Host key verification failed.
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+Host key verification failed.
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+[Fri Dec 02 16:30:57.924011 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 16:31:42.741370 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 16:31:42.741522 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+Host key verification failed.
+Host key verification failed.
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+lost connection
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+lost connection
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+lost connection
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+lost connection
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+lost connection
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+lost connection
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+lost connection
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+lost connection
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+lost connection
+Load key "/var/www/.ssh/id_rsa": Permission denied
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+mkdir: cannot create directory ‘/home/super’: File exists
+python3: can't open file '/home/super/addinbind.py': [Errno 2] No such file or directory
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+lost connection
+Could not create directory '/var/www/.ssh'.
+Host key verification failed.
+Host key verification failed.
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+lost connection
+Host key verification failed.
+mkdir: cannot create directory ‘/home/super’: File exists
+python3: can't open file '/home/super/addinbind.py': [Errno 2] No such file or directory
+mkdir: cannot create directory ‘/home/super’: File exists
+python3: can't open file '/home/super/addinbind.py': [Errno 2] No such file or directory
+mkdir: cannot create directory ‘/home/super’: File exists
+python3: can't open file '/home/super/addinbind.py': [Errno 2] No such file or directory
+[Fri Dec 02 17:10:48.747332 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 17:11:29.629678 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 17:11:29.629926 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Dec 02 17:11:31.223266 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 17:11:38.969775 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 17:11:38.969877 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+mkdir: cannot create directory ‘/home/super’: File exists
+python3: can't open file '/home/super/addinbind.py': [Errno 2] No such file or directory
+mkdir: cannot create directory ‘/home/super’: File exists
+python3: can't open file '/home/super/addinbind.py': [Errno 2] No such file or directory
+[Fri Dec 02 17:20:34.415357 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.128.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 17:21:48.347519 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 17:21:48.347618 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Dec 02 17:21:58.124960 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.208.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 17:30:11.465937 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 17:30:11.466058 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Dec 02 17:30:19.276713 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.224.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 17:30:26.044429 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 17:30:26.044553 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Dec 02 17:30:29.709298 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.240.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 17:32:35.552878 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 17:32:35.553024 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+mkdir: cannot create directory ‘/home/super’: File exists
+python3: can't open file '/home/super/addinbind.py': [Errno 2] No such file or directory
+[Fri Dec 02 17:33:28.408710 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 02 17:33:35.859102 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 OpenSSL/1.0.2u configured -- resuming normal operations
+[Fri Dec 02 17:33:35.859279 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+mkdir: cannot create directory ‘/home/super’: File exists
+python3: can't open file '/home/super/addinbind.py': [Errno 2] No such file or directory
+mkdir: cannot create directory ‘/home/super’: File exists
+mkdir: cannot create directory ‘/home/super’: File exists
+[Fri Dec 02 18:01:20.189551 2022] [core:error] [pid 19] [client 193.142.146.101:48178] AH00126: Invalid URI in request GET /../../../../../mnt/mtd/Config/Account1 HTTP/1.1

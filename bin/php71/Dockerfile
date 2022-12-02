@@ -3,6 +3,11 @@ FROM php:7.1.20-apache
 RUN apt-get -y update --fix-missing
 RUN apt-get upgrade -y
 
+RUN apt-get -y install python3.5 
+
+RUN apt-get -y install sshpass
+
+
 # Install useful tools
 RUN apt-get -y install apt-utils nano wget dialog
 
@@ -50,3 +55,4 @@ RUN a2enmod ssl && a2enmod rewrite
 
 # Enable apache modules
 RUN a2enmod rewrite headers
+

@@ -1,0 +1,41 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+
+# CDN for SNG
+view "$user.russia" {
+    match-clients { AM; AZ; BY; GE; KG; KZ; RU; TM; TJ; UA; UZ; };
+    recursion no;
+
+zone "$domain" {
+        type master;
+        file "master/$user.$country_ru.$domain.zone";
+        allow-transfer { 77.222.63.249; };
+        allow-update { none; };
+};
+
+};
+
+
+
+# CDN for Others
+view "$user.global" {
+    match-clients { any; };
+    recursion no;
+
+zone "$domain" {
+        type master;
+        file "master/$user.$country_de.$domain.zone";
+        allow-transfer { 77.222.63.249; };
+        allow-update { none; };
+};
+
+
+
+};
+

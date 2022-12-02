@@ -21,6 +21,8 @@ if(!isset($_SESSION['user_id'])) {
      
     <!----===== Iconscout CSS ===== -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!--<title>Admin Dashboard Panel</title>--> 
 </head>
@@ -40,25 +42,13 @@ if(!isset($_SESSION['user_id'])) {
                     <i class="uil uil-estate"></i>
                     <span class="link-name">Dahsboard</span>
                 </a></li>
-                <li><a href="#">
+                <li><a href="paneladd.php">
                     <i class="uil uil-files-landscapes"></i>
                     <span class="link-name">Protection</span>
                 </a></li>
                 <li><a href="#">
                     <i class="uil uil-chart"></i>
                     <span class="link-name">Analytics</span>
-                </a></li>
-                <li><a href="#">
-                    <i class="uil uil-thumbs-up"></i>
-                    <span class="link-name">Like</span>
-                </a></li>
-                <li><a href="#">
-                    <i class="uil uil-comments"></i>
-                    <span class="link-name">Comment</span>
-                </a></li>
-                <li><a href="#">
-                    <i class="uil uil-share"></i>
-                    <span class="link-name">Share</span>
                 </a></li>
             </ul>
             
