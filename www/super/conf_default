@@ -1,6 +1,6 @@
 $TTL 14400
 
-$domain     IN      SOA     ns1.$domain. admin.$domain. (
+$domain.     IN      SOA     ns1.$domain. admin.$domain. (
         2017082401      ; Serial
         10800           ; Refresh
         3600            ; Retry

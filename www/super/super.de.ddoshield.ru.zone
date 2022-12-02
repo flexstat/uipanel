@@ -1,6 +1,6 @@
 $TTL 14400
 
-ddoshield.ru     IN      SOA     ns1.ddoshield.ru. admin.ddoshield.ru. (
+ddoshield.ru.     IN      SOA     ns1.ddoshield.ru. admin.ddoshield.ru. (
         2017082401      ; Serial
         10800           ; Refresh
         3600            ; Retry
