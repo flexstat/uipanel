@@ -15,7 +15,8 @@ if(isset($_POST['field1']) && isset($_POST['field2'])) {
     $data = $_POST['field1'] . ';' . $_POST['field2'] . ';' . $dir_name . "\r\n";
     $ret = file_put_contents($dir . '/userdata', $data,  LOCK_EX);
     shell_exec('cp conf_default '.$dir_name);
-    shell_exec('cp default_named_conf '.$dir_name);
+    shell_exec('cp default_named_conf_zone_ru '.$dir_name);
+    shell_exec('cp default_named_conf_zone_de '.$dir_name);
     shell_exec('cp logic.py '.$dir_name);
     shell_exec('cp addinbind.py '.$dir_name);
 

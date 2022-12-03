@@ -569,3 +569,43 @@ mkdir: cannot create directory ‘/home/super’: File exists
 mkdir: cannot create directory ‘/home/super’: File exists
 [Fri Dec 02 18:01:20.189551 2022] [core:error] [pid 19] [client 193.142.146.101:48178] AH00126: Invalid URI in request GET /../../../../../mnt/mtd/Config/Account1 HTTP/1.1
 mkdir: cannot create directory ‘/home/super’: File exists
+mkdir: cannot create directory ‘/home/super’: File exists
+[Fri Dec 02 20:24:16.993720 2022] [php7:error] [pid 18] [client 5.188.210.227:39814] script '/var/www/html/echo.php' not found or unable to stat, referer: https://www.google.com/
+[Sat Dec 03 09:02:32.400690 2022] [core:error] [pid 18] [client 152.89.196.211:53690] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+mkdir: cannot create directory ‘/home/super’: File exists
+cp: missing destination file operand after 'default_named_conf_zone_rusuper'
+Try 'cp --help' for more information.
+cp: missing destination file operand after 'default_named_conf_zone_desuper'
+Try 'cp --help' for more information.
+Traceback (most recent call last):
+  File "logic.py", line 64, in <module>
+    with open('add.in.file', 'w') as file_out:
+PermissionError: [Errno 13] Permission denied: 'add.in.file'
+cp: missing destination file operand after 'default_named_conf_zone_rusuper'
+Try 'cp --help' for more information.
+cp: missing destination file operand after 'default_named_conf_zone_desuper'
+Try 'cp --help' for more information.
+Traceback (most recent call last):
+  File "logic.py", line 31, in <module>
+    with open('default_named_conf_zone_ru') as file_in:
+FileNotFoundError: [Errno 2] No such file or directory: 'default_named_conf_zone_ru'
+mkdir: cannot create directory ‘/home/super’: File exists
+Traceback (most recent call last):
+  File "/home/super/addinbind.py", line 20, in <module>
+    f_new.write('include "/etc/bind/' + list_data[1] + '";'  + "\n")
+IndexError: list index out of range
+mkdir: cannot create directory ‘/home/super’: File exists
+mkdir: cannot create directory ‘/home/super’: File exists
+mkdir: cannot create directory ‘/home/super’: File exists
+mkdir: cannot create directory ‘/home/super’: File exists
+mkdir: cannot create directory ‘/home/super’: File exists
+mkdir: cannot create directory ‘/home/super’: File exists
+mkdir: cannot create directory ‘/home/super’: File exists
+mkdir: cannot create directory ‘/home/super’: File exists
+/bin/sh: 1: cp/home/super/named.conf.local: not found
+mkdir: cannot create directory ‘/home/super’: File exists
+/bin/sh: 1: cp/home/super/named.conf.local: not found
+mkdir: cannot create directory ‘/home/super’: File exists
+mkdir: cannot create directory ‘/home/super’: File exists
+mkdir: cannot create directory ‘/home/super’: File exists
+mkdir: cannot create directory ‘/home/super’: File exists
