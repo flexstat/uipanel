@@ -23,7 +23,7 @@ if(!isset($_SESSION['user_id'])) {
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 
 
@@ -93,14 +93,15 @@ if(!isset($_SESSION['user_id'])) {
                     <i class="uil uil-tachometer-fast-alt"></i>
                     <span class="text">Add domen/ip</span>
                 </div>
-
-
-                    <form action="myprocessingscript.php" method="POST">
-    <input name="field1" class="form-control"  type="text" placeholder="Домен" />
+                    <img id="gif" class="load" src="preview.gif" alt="">
+                    <div id="result_form"> </div>
+                    <div id="load"> </div>
+                    <form id="add" action="" method="post">
+    <input id="domain" name="field1" class="form-control"  type="text" placeholder="Домен" required="true" />
     <br>
-    <input name="field2" class="form-control"  type="text" placeholder="ip адрес хоста"  />
+    <input id="ip" name="field2" class="form-control"  type="text" placeholder="ip адрес хоста" required="true" />
     <br>
-    <input type="submit" class="btn btn-success"  name="submit" value="Save">
+    <input id="button" type="submit" class="btn btn-success"  name="submit" value="Save">
 </form>
 
                     </div>
@@ -112,4 +113,35 @@ if(!isset($_SESSION['user_id'])) {
     <script src="script.js"></script>
 </body>
 </html>
+
+
+<script>
+$(document).ready(function() {
+    $("#add").submit(function() {
+         var result_add = 0;
+         document.getElementById("button").disabled = true; 
+         $('#gif').show();
+        $.ajax({
+            type: "POST",
+            url: 'myprocessingscript.php',
+            data:$("#add").serialize(),
+            success: function (data) {
+                // Inserting html into the result div on success
+                $('#result_form').html('Домен успешно добавлен');
+                $('#ip').val('');
+                $('#domain').val('');
+                document.getElementById("button").disabled = false; 
+                $('#gif').hide();
+
+            },
+            error: function(jqXHR, text, error){
+            // Displaying if there are any errors
+                $('#result_form').html(error);
+        }
+    });
+        return false;
+    });
+});
+</script>
+
 

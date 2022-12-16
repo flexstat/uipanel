@@ -457,3 +457,13 @@ nav.close ~ .dashboard .top{
     }
 }
 
+.load {
+width: 170px;
+display:none;
+}
+
+
+#result_form {
+
+ color:#28a745;
+}

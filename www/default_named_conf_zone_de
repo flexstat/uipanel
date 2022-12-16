@@ -10,7 +10,7 @@
 zone "$domain" {
         type master;
         file "master/$user.$country_de.$domain.master.zone";
-        allow-transfer { 77.222.63.249; };
+        allow-transfer { 77.21.63.21; };
         allow-update { none; };
 };
 

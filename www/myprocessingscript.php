@@ -19,11 +19,8 @@ if(isset($_POST['field1']) && isset($_POST['field2'])) {
     shell_exec('cp default_named_conf_zone_de '.$dir_name);
     shell_exec('cp logic.py '.$dir_name);
     shell_exec('cp addinbind.py '.$dir_name);
-
-    //shell_exec('python3 '.$dir_name.'/logic.py');
-     shell_exec('cp start.php '.$dir_name);
-
-
+    shell_exec('cp ddos_confg '.$dir_name);
+    shell_exec('cp addinddos.py '.$dir_name);
 
 
     if($ret === false) {
@@ -31,7 +28,10 @@ if(isset($_POST['field1']) && isset($_POST['field2'])) {
     }
     else {
         echo "$ret bytes written to file";
-        header('Location: '.$dir_name.'/start.php');
+        //header('Location: '.$dir_name.'/start.php');
+        // shell_exec('php '.$dir_name.'/start.php');
+         shell_exec('/usr/bin/python3.5 super/logic.py');
+         echo $dir_name;
 
     }
 }

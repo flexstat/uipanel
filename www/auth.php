@@ -26,6 +26,6 @@ else if(count($user) == 1){
 
 $mysql->close();
 
-header('Location: panel.php');
+header('Location: paneladd.php');
 
  ?>
